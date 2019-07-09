@@ -1,0 +1,8 @@
+{% import ShamUiCubeAnimation from '../../../src/sham-ui-cube-animation.sht' %}
+
+<main>
+    <pre>
+        Animated cube component
+    </pre>
+    <ShamUiCubeAnimation/>
+</main>
