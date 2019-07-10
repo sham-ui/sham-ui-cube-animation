@@ -7,7 +7,7 @@ const plugins = [
     new webpack.NoEmitOnErrorsPlugin(),
     new ExtractTextPlugin( {
         allChunks: true,
-        filename: 'main.css'
+        filename: 'style.css'
     } ),
     new OptimizeCssAssetsPlugin( {
         cssProcessor: require( 'cssnano' ),
@@ -17,19 +17,19 @@ const plugins = [
         canPrint: true
     } ),
     new CopyPlugin( [
-        { from: './src/styles/sham-ui-cube-animation.scss', to: 'main.scss' }
+        { from: './src/styles/sham-ui-cube-animation.scss', to: 'style.scss' }
     ] )
 ];
 
 module.exports = {
-    entry: [
-        './src/sham-ui-cube-animation.sht',
-        './src/styles/sham-ui-cube-animation.scss'
-    ],
+    entry: {
+        index: './src/sham-ui-cube-animation.sfc',
+        style: './src/styles/sham-ui-cube-animation.scss'
+    },
     output: {
         path: __dirname,
         publicPath: '/',
-        library: [ 'sham-ui-cube-animation' ],
+        library: [ 'sham-ui-cube-animation', 'sham-ui-cube-animation/index' ],
         libraryTarget: 'umd'
     },
     externals: [

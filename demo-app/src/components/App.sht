@@ -1,4 +1,4 @@
-{% import ShamUiCubeAnimation from '../../../src/sham-ui-cube-animation.sht' %}
+{% import ShamUiCubeAnimation from '../../../src/sham-ui-cube-animation.sfc' %}
 
 <main>
     <pre>

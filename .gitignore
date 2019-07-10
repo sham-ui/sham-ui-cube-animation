@@ -1,6 +1,7 @@
 node_modules/
 .idea
 coverage/
-/main.js
-/main.css
-/main.scss
+/index.js
+/style.js
+/style.css
+/style.scss

@@ -2,8 +2,8 @@
   "name": "sham-ui-cube-animation",
   "description": "Animated cube component",
   "author": "Eugeny Burnashov <shamcode@gmail.com>",
-  "main": "main.js",
-  "version": "0.0.1",
+  "main": "index.js",
+  "version": "0.0.2",
   "scripts": {
     "start": "node demo-app/server.js",
     "test:coverage": "jest --coverage",
