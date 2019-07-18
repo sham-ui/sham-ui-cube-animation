@@ -1,3 +1,6 @@
+## 0.0.3
+* Set `$cube-background-color` as `!default` fot overriding;
+
 ## 0.0.2
 * Fix a build
 
