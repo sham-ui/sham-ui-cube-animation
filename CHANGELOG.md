@@ -1,3 +1,6 @@
+## master
+* Regenerate with `sham-ui-cli` 
+
 ## 0.0.3
 * Set `$cube-background-color` as `!default` fot overriding;
 
