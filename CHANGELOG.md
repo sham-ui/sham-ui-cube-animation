@@ -1,4 +1,4 @@
-## master
+## 1.0.0
 * Regenerate with `sham-ui-cli` 
 
 ## 0.0.3

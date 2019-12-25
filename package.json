@@ -3,7 +3,7 @@
   "description": "Animated cube component",
   "author": "Eugeny Burnashov <shamcode@gmail.com>",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "scripts": {
     "start": "node demo-app/server.js",
     "test:coverage": "jest --coverage",
