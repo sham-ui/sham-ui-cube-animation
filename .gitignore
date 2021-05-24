@@ -2,6 +2,8 @@ node_modules/
 .idea
 coverage/
 /index.js
-/style.js
+/index.module.js
+demo-app/dist
+yarn-error.log
 /style.css
 /style.scss

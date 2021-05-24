@@ -13,5 +13,5 @@
 </template>
 
 <script>
-    export default Template;
+    export default Component( Template );
 </script>

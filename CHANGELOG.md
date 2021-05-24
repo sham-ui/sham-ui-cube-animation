@@ -1,3 +1,6 @@
+## 2.0.0
+* Update dependencies
+
 ## 1.1.1
 * Update dependencies
 * Update nodejs version in travis.yml
