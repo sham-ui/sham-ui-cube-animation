@@ -2,9 +2,7 @@
 
 exports[`renders correctly 1`] = `
 Object {
-  "Options": Object {
-    "ID": "component",
-  },
+  "Options": Object {},
   "html": "
 <div class=\\"sk-cube-grid\\">
   <div class=\\"sk-cube sk-cube1\\"></div>
