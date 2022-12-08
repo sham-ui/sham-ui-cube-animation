@@ -1,3 +1,6 @@
+## 2.1.10
+* Update dependencies
+
 ## 2.1.9
 * Update dependencies
 
